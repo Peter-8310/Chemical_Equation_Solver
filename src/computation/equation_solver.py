@@ -96,7 +96,7 @@ def decorate(equation:str, compounds:list[str], coefficients:list[int]):
 
 if __name__ == "__main__":
     "Na3PO4 + Zn(NO3)2 -> Zn3(PO4)2 + NaNO3"
-    equation = input()
+    equation = input("enter your unbalanced equation: \n")
 
     matrix = stoch_matrix(equation)
     reactants, products = extract(equation)
